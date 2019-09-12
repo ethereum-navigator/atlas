@@ -10,5 +10,9 @@
     "atlas.json"
   ],
   "author": "Sebastian Gerske",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/ethereum-navigator/atlas.git",
+    "type": "git"
+  }
 }
