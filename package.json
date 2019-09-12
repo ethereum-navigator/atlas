@@ -1,0 +1,14 @@
+{
+  "name": "@ethereum-navigator/atlas",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./atlas.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "./atlas.json"
+  ],
+  "author": "Sebastian Gerske",
+  "license": "MIT"
+}

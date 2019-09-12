@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Duero",
+    "project": "Ocean Protocol",
+    "type": "testnet",
+    "networkId": "0x897",
+    "url": "https://duero.dev-ocean.com"
+  },
+  {
+    "name": "Nile",
+    "project": "Ocean Protocol",
+    "type": "testnet",
+    "networkId": "0x2323"
+  },
+  {
+    "name": "Pacific",
+    "project": "Ocean Protocol",
+    "type": "mainnet",
+    "networkId": "0xCEA11"
+  },
+  {
+    "name": "Ethereum Mainnet",
+    "project": "Ethereum",
+    "type": "mainnet",
+    "networkId": "0x1"
+  },
+  {
+    "name": "Kovan",
+    "project": "Ethereum",
+    "type": "testnet",
+    "networkId": "0x2a"
+  },
+  {
+    "name": "core",
+    "project": "POA",
+    "type": "mainnet",
+    "networkId": "0x63",
+    "url": "https://core.poa.network"
+  },
+  {
+    "name": "sokol",
+    "project": "POA",
+    "type": "testnet",
+    "networkId": "0x4d",
+    "url": "https://sokol.poa.network"
+  }
+]
