@@ -1,12 +1,3 @@
-## Ethereum Navigator
-
-Imagine you are on a ship staring at the horizon. Suddenly you see an island, are you curious which island it is?
-
-Ethereum Navigator is a tool to navigate thru the endless amount of networks in the Ethereum universe.
-
-### License
-
-```text
 MIT License
 
 Copyright (c) 2019 Sebastian Gerske
@@ -28,4 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
