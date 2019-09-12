@@ -4,6 +4,60 @@ Imagine you are on a ship staring at the horizon. Suddenly you see an island, ar
 
 Ethereum Navigator is a tool to navigate thru the endless amount of networks in the Ethereum universe.
 
+
+## Atlas
+
+The single source of truth for all Ethereum networks.
+
+### Installation
+
+```bash
+npm install --save @ethereum-navigator/atlas
+```
+
+### Schema
+
+Sample entry of the atlas:
+
+```json
+[
+  {
+    "name": "Sokol",
+    "project": "POA",
+    "type": "testnet",
+    "networkId": "0x4d",
+    "url": "https://sokol.poa.network"
+  }
+]
+```
+
+Name        | Description                                       | Type                      | Sample Value
+------------|---------------------------------------------------|---------------------------|------
+name        | The name of the network                           | `string`                  | `Sokol`
+project     | The name of the project that started this network | `string`                  | `POA`
+type        | The type of the network                           | `enum(testnet,mainnet)`   | `testnet`
+networkId   | The hex representation of the networkId           | `string`                  | `0x4d`
+url         | A sample RPC endpoint                             | `string`                  | `https://sokol.poa.network`
+
+
+### Networks
+
+Name                | NetworkId | Project
+--------------------|-----------|----------
+Kovan               | `0x2a`    | Ethereum
+Ethereum Mainnet    | `0x1`     | Ethereum
+Duero               | `0x897`   | Ocean Protocol
+Nile                | `0x2323`  | Ocean Protocol
+Pacific             | `0xCEA11` | Ocean Protocol
+Core                | `0x63`    | POA.network
+Sokol               | `0x4d`    | POA.network
+
+### Usage
+
+```javascript
+const atlas = require('@ethereum-navigator/atlas')
+```
+
 ### License
 
 ```text
