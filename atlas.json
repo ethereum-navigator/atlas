@@ -32,23 +32,88 @@
     "chainId": "0x3d"
   },
   {
+    "name": "Expanse",
+    "project": "Ethereum",
+    "type": "testnet",
+    "networkId": "0x1",
+    "chainId": "0x2"
+  },
+  {
+    "name": "Morden",
+    "project": "Ethereum",
+    "type": "testnet",
+    "networkId": "0x2"
+  },
+  {
+    "name": "Ropsten",
+    "project": "Ethereum",
+    "type": "testnet",
+    "networkId": "0x3"
+  },
+  {
+    "name": "Rinkeby",
+    "project": "Ethereum",
+    "type": "testnet",
+    "networkId": "0x5"
+  },
+  {
+    "name": "Görli",
+    "project": "Ethereum",
+    "type": "testnet",
+    "networkId": "0x5"
+  },
+  {
+    "name": "Kotti",
+    "project": "Ethereum",
+    "type": "testnet",
+    "networkId": "0x6"
+  },
+  {
     "name": "Kovan",
     "project": "Ethereum",
     "type": "testnet",
     "networkId": "0x2a"
   },
   {
-    "name": "core",
-    "project": "POA",
+    "name": "Development Chain",
+    "project": "Parity",
+    "type": "testnet",
+    "networkId": "0x11"
+  },
+  {
+    "name": "xDai",
+    "project": "xDai",
+    "type": "mainnet",
+    "networkId": "0x64"
+  },
+  {
+    "name": "Core",
+    "project": "POA.network",
     "type": "mainnet",
     "networkId": "0x63",
     "url": "https://core.poa.network"
   },
   {
-    "name": "sokol",
-    "project": "POA",
+    "name": "Sokol",
+    "project": "POA.network",
     "type": "testnet",
     "networkId": "0x4d",
     "url": "https://sokol.poa.network"
+  },
+  {
+    "name": "Tobalaba",
+    "project": "EWF",
+    "type": "mainnet",
+    "networkId": "0x62121"
+  },
+  {
+    "name": "Volta",
+    "project": "EWF",
+    "type": "testnet",
+    "networkId": "0x12047"
+  },
+  {
+    "name": "Musicoin",
+    "networkId": "0x76740F"
   }
 ]

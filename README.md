@@ -53,15 +53,27 @@ url*        | A sample RPC endpoint                             | `string`      
 
 ### Networks
 
-Name                | NetworkId | Project
---------------------|-----------|----------
-Kovan               | `0x2a`    | Ethereum
-Ethereum Mainnet    | `0x1`     | Ethereum
-Duero               | `0x897`   | Ocean Protocol
-Nile                | `0x2323`  | Ocean Protocol
-Pacific             | `0xCEA11` | Ocean Protocol
-Core                | `0x63`    | POA.network
-Sokol               | `0x4d`    | POA.network
+Network Name         | NetworkId  | ChainId  | Project         
+---------------------|------------|----------|-----------------
+Duero                | `0x897`    |          | Ocean Protocol
+Nile                 | `0x2323`   |          | Ocean Protocol
+Pacific              | `0xCEA11`  |          | Ocean Protocol
+Ethereum             | `0x1`      |          | Ethereum
+Ethereum Classic     | `0x1`      | `0x3d`   | Ethereum
+Expanse              | `0x1`      | `0x2`    | Ethereum
+Morden               | `0x2`      |          | Ethereum
+Ropsten              | `0x3`      |          | Ethereum
+Rinkeby              | `0x5`      |          | Ethereum
+Görli                | `0x5`      |          | Ethereum
+Kotti                | `0x6`      |          | Ethereum
+Kovan                | `0x2a`     |          | Ethereum
+Development Chain    | `0x11`     |          | Parity
+xDai                 | `0x64`     |          | xDai
+Core                 | `0x63`     |          | POA.network
+Sokol                | `0x4d`     |          | POA.network
+Tobalaba             | `0x62121`  |          | EWF
+Volta                | `0x12047`  |          | EWF
+Musicoin             | `0x76740F` |          |
 
 
 ### License
