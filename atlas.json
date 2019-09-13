@@ -19,10 +19,17 @@
     "networkId": "0xCEA11"
   },
   {
-    "name": "Ethereum Mainnet",
+    "name": "Ethereum",
     "project": "Ethereum",
     "type": "mainnet",
     "networkId": "0x1"
+  },
+  {
+    "name": "Ethereum Classic",
+    "project": "Ethereum",
+    "type": "mainnet",
+    "networkId": "0x1",
+    "chainId": "0x3d"
   },
   {
     "name": "Kovan",
