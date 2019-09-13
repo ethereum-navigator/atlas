@@ -15,6 +15,14 @@ The single source of truth for all Ethereum networks.
 npm install --save @ethereum-navigator/atlas
 ```
 
+
+### Usage
+
+```javascript
+const atlas = require('@ethereum-navigator/atlas')
+```
+
+
 ### Schema
 
 Sample entry of the atlas:
@@ -23,7 +31,7 @@ Sample entry of the atlas:
 [
   {
     "name": "Sokol",
-    "project": "POA",
+    "project": "POA.network",
     "type": "testnet",
     "networkId": "0x4d",
     "url": "https://sokol.poa.network"
@@ -34,10 +42,13 @@ Sample entry of the atlas:
 Name        | Description                                       | Type                      | Sample Value
 ------------|---------------------------------------------------|---------------------------|------
 name        | The name of the network                           | `string`                  | `Sokol`
-project     | The name of the project that started this network | `string`                  | `POA`
-type        | The type of the network                           | `enum(testnet,mainnet)`   | `testnet`
 networkId   | The hex representation of the networkId           | `string`                  | `0x4d`
-url         | A sample RPC endpoint                             | `string`                  | `https://sokol.poa.network`
+project*    | The name of the project that started this network | `string`                  | `POA`
+type*       | The type of the network                           | `enum(testnet,mainnet)`   | `testnet`
+chainId*    | The hex representation of the chainId             | `string`                  | `0x3d`
+url*        | A sample RPC endpoint                             | `string`                  | `https://sokol.poa.network`
+
+\* = optional
 
 
 ### Networks
@@ -52,11 +63,6 @@ Pacific             | `0xCEA11` | Ocean Protocol
 Core                | `0x63`    | POA.network
 Sokol               | `0x4d`    | POA.network
 
-### Usage
-
-```javascript
-const atlas = require('@ethereum-navigator/atlas')
-```
 
 ### License
 
