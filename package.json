@@ -1,6 +1,6 @@
 {
   "name": "@ethereum-navigator/atlas",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "",
   "main": "./atlas.json",
   "scripts": {
