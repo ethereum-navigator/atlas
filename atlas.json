@@ -94,6 +94,13 @@
     "url": "https://core.poa.network"
   },
   {
+    "name": "L14",
+    "project": "LUKSO.network",
+    "type": "testnet",
+    "networkId": "0x16",
+    "url": "http://l14.lukso.network"
+  },
+  {
     "name": "Sokol",
     "project": "POA.network",
     "type": "testnet",
