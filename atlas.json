@@ -108,16 +108,18 @@
     "url": "https://sokol.poa.network"
   },
   {
-    "name": "Tobalaba",
-    "project": "EWF",
-    "type": "mainnet",
-    "networkId": "0x62121"
-  },
-  {
     "name": "Volta",
     "project": "EWF",
     "type": "testnet",
-    "networkId": "0x12047"
+    "networkId": "0x12047",
+    "url": "https://volta-rpc.energyweb.org"
+  },
+  {
+    "name": "Energy Web Chain",
+    "project": "EWF",
+    "type": "mainnet",
+    "networkId": "0xf6",
+    "url": "https://rpc.energyweb.org"
   },
   {
     "name": "Musicoin",
