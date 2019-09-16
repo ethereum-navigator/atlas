@@ -262,16 +262,18 @@
     "networkId": "0x30fb1"
   },
   {
-    "name": "sigma1",
-    "project": "ARTIS",
+    "name": "ARTIS sigma1",
+    "project": "lab10 collective",
     "type": "mainnet",
-    "networkId": "0x3c301"
+    "networkId": "0x3c301",
+    "chainId": "0x3c301"
   },
   {
-    "name": "tau1",
-    "project": "ARTIS",
+    "name": "ARTIS tau1",
+    "project": "lab10 collective",
     "type": "testnet",
-    "networkId": "0x3c401"
+    "networkId": "0x3c401",
+    "chainId": "0x3c401"
   },
   {
     "name": "Pacific",

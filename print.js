@@ -1,7 +1,7 @@
 const atlas = require('./atlas');
 
-console.log("Network Name                   | Type     | NetworkId       | ChainId  | Project                ");
-console.log('-------------------------------|----------|-----------------|----------|------------------------');
+console.log("Network Name                   | Type     | NetworkId       | ChainId   | Project                ");
+console.log('-------------------------------|----------|-----------------|-----------|------------------------');
 
 let mainnets = 0;
 let testnets = 0;
@@ -11,7 +11,7 @@ for (const network of atlas) {
         network.name.padEnd(30),
         (network.type ? network.type : "").padEnd(8),
         `\`${network.networkId}\``.padEnd(15),
-        (network.chainId ? `\`${network.chainId}\`` : "").padEnd(8),
+        (network.chainId ? `\`${network.chainId}\`` : "").padEnd(9),
         network.project ? network.project : ""
     ];
 
