@@ -4,7 +4,9 @@
   "description": "",
   "main": "./atlas.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "print": "node scripts/print.js",
+    "sort": "node scripts/sort.js"
   },
   "files": [
     "atlas.json"

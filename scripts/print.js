@@ -1,4 +1,4 @@
-const atlas = require('./atlas');
+const atlas = require('../atlas');
 
 console.log("Network Name                   | Type     | NetworkId       | ChainId   | Project                ");
 console.log('-------------------------------|----------|-----------------|-----------|------------------------');
