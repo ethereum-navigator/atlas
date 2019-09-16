@@ -53,6 +53,8 @@ url*        | A sample RPC endpoint                             | `string`      
 
 ### Networks
 
+All data can be found here: [atlas.json](atlas.json)
+
 Network Name                   | Type     | NetworkId       | ChainId  | Project                
 -------------------------------|----------|-----------------|----------|------------------------
 Ethereum                       | mainnet  | `0x1`           |          | Ethereum
