@@ -262,12 +262,14 @@
     "networkId": "0x30fb1"
   },
   {
-    "name": "ARTIS sigma1",
-    "type": "testnet",
+    "name": "sigma1",
+    "project": "ARTIS",
+    "type": "mainnet",
     "networkId": "0x3c301"
   },
   {
-    "name": "ARTIS tau1",
+    "name": "tau1",
+    "project": "ARTIS",
     "type": "testnet",
     "networkId": "0x3c401"
   },

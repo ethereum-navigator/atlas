@@ -102,8 +102,8 @@ Spree                          | testnet  | `0x2324`        |          | Ocean P
 Webchain                       | mainnet  | `0x9109`        | `0x5fa4` | 
 Volta                          | testnet  | `0x12047`       |          | Energy Web Foundation
 Akaroma                        | mainnet  | `0x30fb1`       |          | 
-ARTIS sigma1                   | testnet  | `0x3c301`       |          | 
-ARTIS tau1                     | testnet  | `0x3c401`       |          | 
+sigma1                         | mainnet  | `0x3c301`       |          | ARTIS
+tau1                           | testnet  | `0x3c401`       |          | ARTIS
 Pacific                        | mainnet  | `0xCEA11`       |          | Ocean Protocol
 Ether-1                        | mainnet  | `0x14095a`      |          | 
 Xerom                          | mainnet  | `0x140adc`      |          | 
@@ -116,7 +116,7 @@ Aquachain                      | mainnet  | `0x3adbc39`     |          |
 IPOS                           | mainnet  | `0x42e576f7`    |          | 
 Pirl                           | mainnet  | `0xba4dc610`    |          | 
 
-Networks: 58 Mainnets: 34 Testnets: 24
+Networks: 58 Mainnets: 35 Testnets: 23
 
 
 ### License
