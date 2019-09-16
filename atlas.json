@@ -1,35 +1,9 @@
 [
   {
-    "name": "Duero",
-    "project": "Ocean Protocol",
-    "type": "testnet",
-    "networkId": "0x897",
-    "url": "https://duero.dev-ocean.com"
-  },
-  {
-    "name": "Nile",
-    "project": "Ocean Protocol",
-    "type": "testnet",
-    "networkId": "0x2323"
-  },
-  {
-    "name": "Pacific",
-    "project": "Ocean Protocol",
-    "type": "mainnet",
-    "networkId": "0xCEA11"
-  },
-  {
     "name": "Ethereum",
     "project": "Ethereum",
     "type": "mainnet",
     "networkId": "0x1"
-  },
-  {
-    "name": "Ethereum Classic",
-    "project": "Ethereum",
-    "type": "mainnet",
-    "networkId": "0x1",
-    "chainId": "0x3d"
   },
   {
     "name": "Expanse",
@@ -39,10 +13,65 @@
     "chainId": "0x2"
   },
   {
+    "name": "Ubiq",
+    "type": "mainnet",
+    "networkId": "0x1",
+    "chainId": "0x8"
+  },
+  {
+    "name": "Ethereum Classic",
+    "project": "Ethereum",
+    "type": "mainnet",
+    "networkId": "0x1",
+    "chainId": "0x3d"
+  },
+  {
+    "name": "EtherInc",
+    "type": "mainnet",
+    "networkId": "0x1",
+    "chainId": "0x65"
+  },
+  {
+    "name": "Callisto",
+    "type": "mainnet",
+    "networkId": "0x1",
+    "chainId": "0x334"
+  },
+  {
+    "name": "Teslafunds",
+    "type": "mainnet",
+    "networkId": "0x1",
+    "chainId": "0x740"
+  },
+  {
+    "name": "Ethersocial",
+    "type": "mainnet",
+    "networkId": "0x1",
+    "chainId": "0x797e"
+  },
+  {
     "name": "Morden",
     "project": "Ethereum",
     "type": "testnet",
     "networkId": "0x2"
+  },
+  {
+    "name": "Ubiq",
+    "type": "testnet",
+    "networkId": "0x2",
+    "chainId": "0x9"
+  },
+  {
+    "name": "Ethereum Classic",
+    "type": "testnet",
+    "networkId": "0x2",
+    "chainId": "0x3e"
+  },
+  {
+    "name": "Callisto",
+    "type": "testnet",
+    "networkId": "0x2",
+    "chainId": "0x335"
   },
   {
     "name": "Ropsten",
@@ -69,10 +98,14 @@
     "networkId": "0x6"
   },
   {
-    "name": "Kovan",
-    "project": "Ethereum",
+    "name": "Metadium",
+    "type": "mainnet",
+    "networkId": "0xb"
+  },
+  {
+    "name": "Metadium",
     "type": "testnet",
-    "networkId": "0x2a"
+    "networkId": "0xc"
   },
   {
     "name": "Development Chain",
@@ -81,17 +114,9 @@
     "networkId": "0x11"
   },
   {
-    "name": "xDai",
-    "project": "xDai",
-    "type": "mainnet",
-    "networkId": "0x64"
-  },
-  {
-    "name": "Core",
-    "project": "POA.network",
-    "type": "mainnet",
-    "networkId": "0x63",
-    "url": "https://core.poa.network"
+    "name": "ThunderCore",
+    "type": "testnet",
+    "networkId": "0x12"
   },
   {
     "name": "L14",
@@ -101,6 +126,37 @@
     "url": "http://l14.lukso.network"
   },
   {
+    "name": "RSK",
+    "type": "mainnet",
+    "networkId": "0x1e"
+  },
+  {
+    "name": "RSK",
+    "type": "testnet",
+    "networkId": "0x1f"
+  },
+  {
+    "name": "Kovan",
+    "project": "Ethereum",
+    "type": "testnet",
+    "networkId": "0x2a"
+  },
+  {
+    "name": "GoChain",
+    "type": "mainnet",
+    "networkId": "0x3c"
+  },
+  {
+    "name": "Ellaism",
+    "type": "mainnet",
+    "networkId": "0x40"
+  },
+  {
+    "name": "Mix",
+    "type": "mainnet",
+    "networkId": "0x4c"
+  },
+  {
     "name": "Sokol",
     "project": "POA.network",
     "type": "testnet",
@@ -108,19 +164,160 @@
     "url": "https://sokol.poa.network"
   },
   {
-    "name": "Tobalaba",
-    "project": "EWF",
+    "name": "TomoChain",
     "type": "mainnet",
-    "networkId": "0x62121"
+    "networkId": "0x58"
+  },
+  {
+    "name": "Core",
+    "project": "POA.network",
+    "type": "mainnet",
+    "networkId": "0x63",
+    "url": "https://core.poa.network"
+  },
+  {
+    "name": "xDai",
+    "project": "xDai",
+    "type": "mainnet",
+    "networkId": "0x64"
+  },
+  {
+    "name": "High Performance Blockchain",
+    "type": "mainnet",
+    "networkId": "0x64",
+    "chainId": "0x10d"
+  },
+  {
+    "name": "ThunderCore",
+    "type": "mainnet",
+    "networkId": "0x6c"
+  },
+  {
+    "name": "Lightstreams",
+    "type": "testnet",
+    "networkId": "0xa2"
+  },
+  {
+    "name": "Lightstreams",
+    "type": "mainnet",
+    "networkId": "0xa3"
+  },
+  {
+    "name": "Lisinski",
+    "type": "mainnet",
+    "networkId": "0x181"
+  },
+  {
+    "name": "Nepal Blockchain",
+    "type": "mainnet",
+    "networkId": "0x3d1"
+  },
+  {
+    "name": "EtherGem",
+    "type": "mainnet",
+    "networkId": "0x7c3"
+  },
+  {
+    "name": "Duero",
+    "project": "Ocean Protocol",
+    "type": "testnet",
+    "networkId": "0x897",
+    "url": "https://duero.dev-ocean.com"
+  },
+  {
+    "name": "Nile",
+    "project": "Ocean Protocol",
+    "type": "testnet",
+    "networkId": "0x2323"
+  },
+  {
+    "name": "Webchain",
+    "type": "mainnet",
+    "networkId": "0x9109",
+    "chainId": "0x5fa4"
   },
   {
     "name": "Volta",
-    "project": "EWF",
+    "project": "Energy Web Foundation",
     "type": "testnet",
     "networkId": "0x12047"
   },
   {
+    "name": "Akaroma",
+    "type": "mainnet",
+    "networkId": "0x30fb1"
+  },
+  {
+    "name": "ARTIS sigma1",
+    "type": "testnet",
+    "networkId": "0x3c301"
+  },
+  {
+    "name": "ARTIS tau1",
+    "type": "testnet",
+    "networkId": "0x3c401"
+  },
+  {
+    "name": "Tobalaba",
+    "project": "Energy Web Foundation",
+    "type": "mainnet",
+    "networkId": "0x62121"
+  },
+  {
+    "name": "Pacific",
+    "project": "Ocean Protocol",
+    "type": "mainnet",
+    "networkId": "0xCEA11"
+  },
+  {
+    "name": "Ether-1",
+    "type": "mainnet",
+    "networkId": "0x14095a"
+  },
+  {
+    "name": "Xerom",
+    "type": "mainnet",
+    "networkId": "0x140adc"
+  },
+  {
     "name": "Musicoin",
+    "type": "mainnet",
     "networkId": "0x76740F"
+  },
+  {
+    "name": "Atheios",
+    "type": "mainnet",
+    "networkId": "0xab71e5",
+    "chainId": "0x654"
+  },
+  {
+    "name": "PepChain Churchill",
+    "type": "testnet",
+    "networkId": "0xcc07c9"
+  },
+  {
+    "name": "IOLite",
+    "type": "mainnet",
+    "networkId": "0x1171337"
+  },
+  {
+    "name": "Auxilium",
+    "type": "mainnet",
+    "networkId": "0x1b9ac4e"
+  },
+  {
+    "name": "Aquachain",
+    "type": "mainnet",
+    "networkId": "0x3adbc39"
+  },
+  {
+    "name": "IPOS",
+    "type": "mainnet",
+    "networkId": "0x42e576f7"
+  },
+  {
+    "name": "Pirl",
+    "type": "mainnet",
+    "networkId": "0xba4dc610"
   }
 ]
