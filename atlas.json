@@ -231,6 +231,12 @@
     "networkId": "0x2323"
   },
   {
+    "name": "Spree",
+    "project": "Ocean Protocol",
+    "type": "testnet",
+    "networkId": "0x2324"
+  },
+  {
     "name": "Webchain",
     "type": "mainnet",
     "networkId": "0x9109",

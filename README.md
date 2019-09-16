@@ -95,6 +95,7 @@ Nepal Blockchain               | mainnet  | `0x3d1`         |          |
 EtherGem                       | mainnet  | `0x7c3`         |          | 
 Duero                          | testnet  | `0x897`         |          | Ocean Protocol
 Nile                           | testnet  | `0x2323`        |          | Ocean Protocol
+Spree                          | testnet  | `0x2324`        |          | Ocean Protocol
 Webchain                       | mainnet  | `0x9109`        | `0x5fa4` | 
 Volta                          | testnet  | `0x12047`       |          | Energy Web Foundation
 Akaroma                        | mainnet  | `0x30fb1`       |          | 
@@ -113,7 +114,7 @@ Aquachain                      | mainnet  | `0x3adbc39`     |          |
 IPOS                           | mainnet  | `0x42e576f7`    |          | 
 Pirl                           | mainnet  | `0xba4dc610`    |          | 
 
-Networks: 57 Mainnets: 34 Testnets: 23
+Networks: 58 Mainnets: 34 Testnets: 24
 
 
 ### License
