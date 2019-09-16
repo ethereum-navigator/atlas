@@ -54,7 +54,7 @@
     "name": "Rinkeby",
     "project": "Ethereum",
     "type": "testnet",
-    "networkId": "0x5"
+    "networkId": "0x4"
   },
   {
     "name": "Görli",
