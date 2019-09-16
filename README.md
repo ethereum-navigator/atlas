@@ -47,6 +47,7 @@ chainId*    | The hex representation of the chainId             | `string`      
 project*    | The name of the project that started this network | `string`                  | `POA.network`
 type*       | The type of the network                           | `enum(testnet,mainnet)`   | `testnet`
 url*        | A sample RPC endpoint                             | `string`                  | `https://sokol.poa.network`
+explorer*   | URL to network explorer                           | `string`                  | `https://submarine.oceanprotocol.com`
 
 \* = optional
 
