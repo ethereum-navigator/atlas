@@ -229,13 +229,16 @@
     "project": "Ocean Protocol",
     "type": "testnet",
     "networkId": "0x897",
-    "url": "https://duero.dev-ocean.com"
+    "url": "https://duero.dev-ocean.com",
+    "explorer": "https://submarine.duero.dev-ocean.com"
   },
   {
     "name": "Nile",
     "project": "Ocean Protocol",
     "type": "testnet",
-    "networkId": "0x2323"
+    "networkId": "0x2323",
+    "url": "https://nile.dev-ocean.com",
+    "explorer": "https://submarine.nile.dev-ocean.com"
   },
   {
     "name": "Spree",
@@ -279,7 +282,9 @@
     "name": "Pacific",
     "project": "Ocean Protocol",
     "type": "mainnet",
-    "networkId": "0xCEA11"
+    "networkId": "0xCEA11",
+    "url": "https://pacific.oceanprotocol.com",
+    "explorer": "https://submarine.oceanprotocol.com"
   },
   {
     "name": "Ether-1",
