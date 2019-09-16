@@ -203,6 +203,13 @@
     "networkId": "0xa3"
   },
   {
+    "name": "Energy Web Chain",
+    "project": "Energy Web Foundation",
+    "type": "mainnet",
+    "networkId": "0xf6",
+    "url": "https://rpc.energyweb.org"
+  },
+  {
     "name": "Lisinski",
     "type": "mainnet",
     "networkId": "0x181"
@@ -246,7 +253,8 @@
     "name": "Volta",
     "project": "Energy Web Foundation",
     "type": "testnet",
-    "networkId": "0x12047"
+    "networkId": "0x12047",
+    "url": "https://volta-rpc.energyweb.org"
   },
   {
     "name": "Akaroma",
@@ -262,12 +270,6 @@
     "name": "ARTIS tau1",
     "type": "testnet",
     "networkId": "0x3c401"
-  },
-  {
-    "name": "Tobalaba",
-    "project": "Energy Web Foundation",
-    "type": "mainnet",
-    "networkId": "0x62121"
   },
   {
     "name": "Pacific",
