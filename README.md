@@ -90,6 +90,7 @@ High Performance Blockchain    | mainnet  | `0x64`          | `0x10d`  |
 ThunderCore                    | mainnet  | `0x6c`          |          | 
 Lightstreams                   | testnet  | `0xa2`          |          | 
 Lightstreams                   | mainnet  | `0xa3`          |          | 
+Energy Web Chain               | mainnet  | `0xf6`          |          | Energy Web Foundation
 Lisinski                       | mainnet  | `0x181`         |          | 
 Nepal Blockchain               | mainnet  | `0x3d1`         |          | 
 EtherGem                       | mainnet  | `0x7c3`         |          | 
@@ -101,7 +102,6 @@ Volta                          | testnet  | `0x12047`       |          | Energy 
 Akaroma                        | mainnet  | `0x30fb1`       |          | 
 ARTIS sigma1                   | testnet  | `0x3c301`       |          | 
 ARTIS tau1                     | testnet  | `0x3c401`       |          | 
-Tobalaba                       | mainnet  | `0x62121`       |          | Energy Web Foundation
 Pacific                        | mainnet  | `0xCEA11`       |          | Ocean Protocol
 Ether-1                        | mainnet  | `0x14095a`      |          | 
 Xerom                          | mainnet  | `0x140adc`      |          | 
