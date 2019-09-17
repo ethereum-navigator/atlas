@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Atlas",
+  "type": "array",
+  "items": {
+    "title": "Network",
+    "$ref": "#/definitions/network"
+  },
+  "definitions": {
+    "network": {
+      "type": "object",
+      "required": [
+        "name",
+        "networkId"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "mainnet",
+            "testnet"
+          ]
+        },
+        "networkId": {
+          "type": "string",
+          "pattern": "^0x(.*)$"
+        },
+        "chainId": {
+          "type": "string",
+          "pattern": "^0x(.*)$"
+        },
+        "project": {
+          "type": "string"
+        },
+        "rpcUrl": {
+          "type": "string",
+          "pattern": "^https?://(.*)$"
+        },
+        "explorerUrl": {
+          "type": "string",
+          "pattern": "^https?://(.*)$"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -34,23 +34,24 @@ Sample entry of the atlas:
     "project": "POA.network",
     "type": "testnet",
     "networkId": "0x4d",
-    "url": "https://sokol.poa.network"
+    "rpcUrl": "https://sokol.poa.network"
   }
 ]
 ```
 
-Name        | Description                                       | Type                      | Sample Value
-------------|---------------------------------------------------|---------------------------|------------------------------
-name        | The name of the network                           | `string`                  | `Sokol`
-networkId   | The hex representation of the networkId           | `string`                  | `0x4d`
-chainId*    | The hex representation of the chainId             | `string`                  | `0x3d`
-project*    | The name of the project that started this network | `string`                  | `POA.network`
-type*       | The type of the network                           | `enum(testnet,mainnet)`   | `testnet`
-url*        | A sample RPC endpoint                             | `string`                  | `https://sokol.poa.network`
-explorer*   | URL to network explorer                           | `string`                  | `https://submarine.oceanprotocol.com`
+Name         | Description                                       | Type      | Pattern                         | Sample Value
+-------------|---------------------------------------------------|-----------|------------------------------------|----------------------------------------
+name         | The name of the network                           | `string`  |                                    | `Sokol`
+networkId    | The hex representation of the networkId           | `string`  | Start with `0x`                    | `0x4d`
+chainId*     | The hex representation of the chainId             | `string`  | Start with `0x`                    | `0x3d`
+project*     | The name of the project that started this network | `string`  |                                    | `POA.network`
+type*        | The type of the network                           | `string`  | `testnet` or `mainnet`             | `testnet`
+rpcUrl*      | A sample RPC endpoint                             | `string`  | start with `http://` or `https://` | `https://sokol.poa.network`
+explorerUrl* | URL to network explorer                           | `string`  | start with `http://` or `https://` | `https://submarine.oceanprotocol.com`
 
 \* = optional
 
+For for information see [atlas.schema.json](atlas.schema.json)
 
 ### Networks
 
