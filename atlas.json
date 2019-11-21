@@ -374,5 +374,11 @@
     "type": "mainnet",
     "networkId": "0xba4dc610",
     "rpcUrl": "https://wallrpc.pirl.io"
+  },
+  {
+    "name": "Alfajores",
+    "project": "Celo",
+    "type": "testnet",
+    "networkId": "0xAEF1"
   }
 ]
