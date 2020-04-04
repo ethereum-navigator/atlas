@@ -23,7 +23,7 @@
   },
   {
     "name": "Ethereum Classic",
-    "project": "Ethereum",
+    "project": "Ethereum Classic",
     "type": "mainnet",
     "networkId": "0x1",
     "chainId": "0x3d",
@@ -59,21 +59,16 @@
   },
   {
     "name": "Morden",
-    "project": "Ethereum",
+    "project": "Ethereum Classic",
     "type": "testnet",
-    "networkId": "0x2"
+    "networkId": "0x2",
+    "chainId": "0x3e"
   },
   {
     "name": "Ubiq",
     "type": "testnet",
     "networkId": "0x2",
     "chainId": "0x9"
-  },
-  {
-    "name": "Ethereum Classic",
-    "type": "testnet",
-    "networkId": "0x2",
-    "chainId": "0x3e"
   },
   {
     "name": "Callisto",
@@ -85,26 +80,37 @@
     "name": "Ropsten",
     "project": "Ethereum",
     "type": "testnet",
-    "networkId": "0x3"
+    "networkId": "0x3",
+    "chainId": "0x3"
   },
   {
     "name": "Rinkeby",
     "project": "Ethereum",
     "type": "testnet",
-    "networkId": "0x4"
+    "networkId": "0x4",
+    "chainId": "0x4"
   },
   {
     "name": "Görli",
     "project": "Ethereum",
     "type": "testnet",
     "networkId": "0x5",
+    "chainId": "0x5",
     "rpcUrl": "https://rpc.goerli.mudit.blog/"
   },
   {
     "name": "Kotti",
-    "project": "Ethereum",
+    "project": "Ethereum Classic",
     "type": "testnet",
-    "networkId": "0x6"
+    "networkId": "0x6",
+    "chainId": "0x6"
+  },
+  {
+    "name": "Mordor",
+    "project": "Ethereum Classic",
+    "type": "testnet",
+    "networkId": "0x7",
+    "chainId": "0x3f"
   },
   {
     "name": "Metadium",
