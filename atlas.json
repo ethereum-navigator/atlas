@@ -385,7 +385,7 @@
     "name": "Alfajores",
     "project": "Celo",
     "type": "testnet",
-    "networkId": "0xAEF1"
+    "networkId": "0xaef2"
   },
   {
     "name": "Baklava",
