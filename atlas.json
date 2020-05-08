@@ -386,5 +386,17 @@
     "project": "Celo",
     "type": "testnet",
     "networkId": "0xAEF1"
+  },
+  {
+    "name": "Baklava",
+    "project": "Celo",
+    "type": "testnet",
+    "networkId": "0x9CB8"
+  },
+  {
+    "name": "RC1",
+    "project": "Celo",
+    "type": "mainnet",
+    "networkId": "0xA4EC"
   }
 ]
