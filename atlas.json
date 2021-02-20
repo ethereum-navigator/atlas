@@ -398,5 +398,23 @@
     "project": "Celo",
     "type": "mainnet",
     "networkId": "0xA4EC"
+  },
+  {
+    "name": "Polygon (Matic Network)",
+    "project": "Polygon (Matic Network)",
+    "type": "mainnet",
+    "networkId": "0x89",
+    "chainId":  "0x89",
+    "rpcUrl": "https://rpc-mainnet.maticvigil.com",
+    "explorerUrl": "https://explorer-mainnet.maticvigil.com"
+  },
+  {
+    "name": "Mumbai Testnet",
+    "project": "Polygon (Matic Network)",
+    "type": "testnet",
+    "networkId": "0x13881",
+    "chainId":  "0x13881",
+    "rpcUrl": "https://rpc-mumbai.maticvigil.com",
+    "explorerUrl": "https://explorer-mumbai.maticvigil.com"
   }
 ]
