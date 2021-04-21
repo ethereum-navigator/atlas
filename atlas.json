@@ -58,17 +58,17 @@
     "rpcUrl": "https://api.esn.gonspool.com"
   },
   {
+    "name": "Ubiq",
+    "type": "testnet",
+    "networkId": "0x2",
+    "chainId": "0x9"
+  },
+  {
     "name": "Morden",
     "project": "Ethereum Classic",
     "type": "testnet",
     "networkId": "0x2",
     "chainId": "0x3e"
-  },
-  {
-    "name": "Ubiq",
-    "type": "testnet",
-    "networkId": "0x2",
-    "chainId": "0x9"
   },
   {
     "name": "Callisto",
@@ -220,6 +220,15 @@
     "rpcUrl": "https://mainnet-rpc.thundercore.com"
   },
   {
+    "name": "Polygon (Matic Network)",
+    "project": "Polygon (Matic Network)",
+    "type": "mainnet",
+    "networkId": "0x89",
+    "chainId": "0x89",
+    "rpcUrl": "https://rpc-mainnet.maticvigil.com",
+    "explorerUrl": "https://explorer-mainnet.maticvigil.com"
+  },
+  {
     "name": "Lightstreams",
     "type": "testnet",
     "networkId": "0xa2",
@@ -286,11 +295,38 @@
     "rpcUrl": "https://node1.webchain.network"
   },
   {
+    "name": "Baklava",
+    "project": "Celo",
+    "type": "testnet",
+    "networkId": "0x9CB8"
+  },
+  {
+    "name": "RC1",
+    "project": "Celo",
+    "type": "mainnet",
+    "networkId": "0xA4EC"
+  },
+  {
+    "name": "Alfajores",
+    "project": "Celo",
+    "type": "testnet",
+    "networkId": "0xaef2"
+  },
+  {
     "name": "Volta",
     "project": "Energy Web Foundation",
     "type": "testnet",
     "networkId": "0x12047",
     "rpcUrl": "https://volta-rpc.energyweb.org"
+  },
+  {
+    "name": "Mumbai Testnet",
+    "project": "Polygon (Matic Network)",
+    "type": "testnet",
+    "networkId": "0x13881",
+    "chainId": "0x13881",
+    "rpcUrl": "https://rpc-mumbai.maticvigil.com",
+    "explorerUrl": "https://explorer-mumbai.maticvigil.com"
   },
   {
     "name": "Akaroma",
@@ -380,23 +416,5 @@
     "type": "mainnet",
     "networkId": "0xba4dc610",
     "rpcUrl": "https://wallrpc.pirl.io"
-  },
-  {
-    "name": "Alfajores",
-    "project": "Celo",
-    "type": "testnet",
-    "networkId": "0xaef2"
-  },
-  {
-    "name": "Baklava",
-    "project": "Celo",
-    "type": "testnet",
-    "networkId": "0x9CB8"
-  },
-  {
-    "name": "RC1",
-    "project": "Celo",
-    "type": "mainnet",
-    "networkId": "0xA4EC"
   }
 ]
