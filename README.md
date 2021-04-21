@@ -57,68 +57,73 @@ For for information see [atlas.schema.json](atlas.schema.json)
 
 All data can be found here: [atlas.json](atlas.json)
 
-Network Name                   | Type     | NetworkId       | ChainId   | Project                
+Network Name                   | Type     | NetworkId       | ChainId   | Project
 -------------------------------|----------|-----------------|-----------|------------------------
 Ethereum                       | mainnet  | `0x1`           |           | Ethereum
 Expanse                        | testnet  | `0x1`           | `0x2`     | Ethereum
-Ubiq                           | mainnet  | `0x1`           | `0x8`     | 
-Ethereum Classic               | mainnet  | `0x1`           | `0x3d`    | Ethereum
-EtherInc                       | mainnet  | `0x1`           | `0x65`    | 
-Callisto                       | mainnet  | `0x1`           | `0x334`   | 
-Teslafunds                     | mainnet  | `0x1`           | `0x740`   | 
-Ethersocial                    | mainnet  | `0x1`           | `0x797e`  | 
-Morden                         | testnet  | `0x2`           |           | Ethereum
-Ubiq                           | testnet  | `0x2`           | `0x9`     | 
-Ethereum Classic               | testnet  | `0x2`           | `0x3e`    | 
-Callisto                       | testnet  | `0x2`           | `0x335`   | 
-Ropsten                        | testnet  | `0x3`           |           | Ethereum
-Rinkeby                        | testnet  | `0x4`           |           | Ethereum
-Görli                          | testnet  | `0x5`           |           | Ethereum
-Kotti                          | testnet  | `0x6`           |           | Ethereum
-Metadium                       | mainnet  | `0xb`           |           | 
-Metadium                       | testnet  | `0xc`           |           | 
+Ubiq                           | mainnet  | `0x1`           | `0x8`     |
+Ethereum Classic               | mainnet  | `0x1`           | `0x3d`    | Ethereum Classic
+EtherInc                       | mainnet  | `0x1`           | `0x65`    |
+Callisto                       | mainnet  | `0x1`           | `0x334`   |
+Teslafunds                     | mainnet  | `0x1`           | `0x740`   |
+Ethersocial                    | mainnet  | `0x1`           | `0x797e`  |
+Ubiq                           | testnet  | `0x2`           | `0x9`     |
+Morden                         | testnet  | `0x2`           | `0x3e`    | Ethereum Classic
+Callisto                       | testnet  | `0x2`           | `0x335`   |
+Ropsten                        | testnet  | `0x3`           | `0x3`     | Ethereum
+Rinkeby                        | testnet  | `0x4`           | `0x4`     | Ethereum
+Görli                          | testnet  | `0x5`           | `0x5`     | Ethereum
+Kotti                          | testnet  | `0x6`           | `0x6`     | Ethereum Classic
+Mordor                         | testnet  | `0x7`           | `0x3f`    | Ethereum Classic
+Metadium                       | mainnet  | `0xb`           |           |
+Metadium                       | testnet  | `0xc`           |           |
 Development Chain              | testnet  | `0x11`          |           | Parity
-ThunderCore                    | testnet  | `0x12`          |           | 
+ThunderCore                    | testnet  | `0x12`          |           |
 L14                            | testnet  | `0x16`          |           | LUKSO.network
-RSK                            | mainnet  | `0x1e`          |           | 
-RSK                            | testnet  | `0x1f`          |           | 
+RSK                            | mainnet  | `0x1e`          |           |
+RSK                            | testnet  | `0x1f`          |           |
 Kovan                          | testnet  | `0x2a`          |           | Ethereum
-GoChain                        | mainnet  | `0x3c`          |           | 
-Ellaism                        | mainnet  | `0x40`          |           | 
-Mix                            | mainnet  | `0x4c`          |           | 
+GoChain                        | mainnet  | `0x3c`          |           |
+Ellaism                        | mainnet  | `0x40`          |           |
+Mix                            | mainnet  | `0x4c`          |           |
 Sokol                          | testnet  | `0x4d`          |           | POA.network
-TomoChain                      | mainnet  | `0x58`          |           | 
+TomoChain                      | mainnet  | `0x58`          |           |
 Core                           | mainnet  | `0x63`          |           | POA.network
 xDai                           | mainnet  | `0x64`          |           | xDai
-High Performance Blockchain    | mainnet  | `0x64`          | `0x10d`   | 
-ThunderCore                    | mainnet  | `0x6c`          |           | 
-Lightstreams                   | testnet  | `0xa2`          |           | 
-Lightstreams                   | mainnet  | `0xa3`          |           | 
+High Performance Blockchain    | mainnet  | `0x64`          | `0x10d`   |
+ThunderCore                    | mainnet  | `0x6c`          |           |
+Polygon (Matic Network)        | mainnet  | `0x89`          | `0x89`    | Polygon (Matic Network)
+Lightstreams                   | testnet  | `0xa2`          |           |
+Lightstreams                   | mainnet  | `0xa3`          |           |
 Energy Web Chain               | mainnet  | `0xf6`          |           | Energy Web Foundation
-Lisinski                       | mainnet  | `0x181`         |           | 
-Nepal Blockchain               | mainnet  | `0x3d1`         |           | 
-EtherGem                       | mainnet  | `0x7c3`         |           | 
+Lisinski                       | mainnet  | `0x181`         |           |
+Nepal Blockchain               | mainnet  | `0x3d1`         |           |
+EtherGem                       | mainnet  | `0x7c3`         |           |
 Duero                          | testnet  | `0x897`         |           | Ocean Protocol
 Nile                           | testnet  | `0x2323`        |           | Ocean Protocol
 Spree                          | testnet  | `0x2324`        |           | Ocean Protocol
-Webchain                       | mainnet  | `0x9109`        | `0x5fa4`  | 
+Webchain                       | mainnet  | `0x9109`        | `0x5fa4`  |
+Baklava                        | testnet  | `0x9CB8`        |           | Celo
+RC1                            | mainnet  | `0xA4EC`        |           | Celo
+Alfajores                      | testnet  | `0xaef2`        |           | Celo
 Volta                          | testnet  | `0x12047`       |           | Energy Web Foundation
-Akaroma                        | mainnet  | `0x30fb1`       |           | 
+Mumbai Testnet                 | testnet  | `0x13881`       | `0x13881` | Polygon (Matic Network)
+Akaroma                        | mainnet  | `0x30fb1`       |           |
 ARTIS sigma1                   | mainnet  | `0x3c301`       | `0x3c301` | lab10 collective
 ARTIS tau1                     | testnet  | `0x3c401`       | `0x3c401` | lab10 collective
 Pacific                        | mainnet  | `0xCEA11`       |           | Ocean Protocol
-Ether-1                        | mainnet  | `0x14095a`      |           | 
-Xerom                          | mainnet  | `0x140adc`      |           | 
-Musicoin                       | mainnet  | `0x76740F`      |           | 
-Atheios                        | mainnet  | `0xab71e5`      | `0x654`   | 
-PepChain Churchill             | testnet  | `0xcc07c9`      |           | 
-IOLite                         | mainnet  | `0x1171337`     |           | 
-Auxilium                       | mainnet  | `0x1b9ac4e`     |           | 
-Aquachain                      | mainnet  | `0x3adbc39`     |           | 
-IPOS                           | mainnet  | `0x42e576f7`    |           | 
-Pirl                           | mainnet  | `0xba4dc610`    |           | 
+Ether-1                        | mainnet  | `0x14095a`      |           |
+Xerom                          | mainnet  | `0x140adc`      |           |
+Musicoin                       | mainnet  | `0x76740F`      |           |
+Atheios                        | mainnet  | `0xab71e5`      | `0x654`   |
+PepChain Churchill             | testnet  | `0xcc07c9`      |           |
+IOLite                         | mainnet  | `0x1171337`     |           |
+Auxilium                       | mainnet  | `0x1b9ac4e`     |           |
+Aquachain                      | mainnet  | `0x3adbc39`     |           |
+IPOS                           | mainnet  | `0x42e576f7`    |           |
+Pirl                           | mainnet  | `0xba4dc610`    |           |
 
-Networks: 58 Mainnets: 35 Testnets: 23
+Networks: 63 Mainnets: 37 Testnets: 26
 
 
 ### License
@@ -126,7 +131,7 @@ Networks: 58 Mainnets: 35 Testnets: 23
 ```text
 MIT License
 
-Copyright (c) 2019 Sebastian Gerske
+Copyright (c) 2019-2021 Sebastian Gerske
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
